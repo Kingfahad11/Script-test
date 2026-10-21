@@ -39,7 +39,7 @@ def _http_port() -> int:
             return int(v)
     return 10000
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8993873874:AAFh_nG9r5LtcVIkRh58D5eWG_BHEi_lPzk")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 DB_CHANNEL_ID = int(os.environ.get("DB_CHANNEL_ID", "-1003995141877"))
 
 # 📡 সার্ভার রিসেটে লোকাল DB না থাকলে প্রাইভেট চ্যানেলের PIN করা ব্যাকআপ থেকে DB ফেরত আনে
